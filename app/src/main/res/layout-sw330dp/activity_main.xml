@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:background="@drawable/topmain"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="429dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:foregroundGravity="center"
+                app:sliderAnimationDuration="1000"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="5000"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="10"
+                app:sliderStartAutoCycle="true" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/bgmain4"
+            android:orientation="vertical"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_marginBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/tombolwakjago"
+                        android:layout_width="308dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5sp"
+                        android:background="@drawable/colorbutton"
+                        android:drawableLeft="@drawable/wakjago"
+                        android:paddingStart="80sp"
+                        android:paddingEnd="80sp"
+                        android:text="WAK JAGO"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <LinearLayout
+                        android:layout_width="162dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5sp"
+                            android:background="@drawable/colorbutton"
+                            android:drawableLeft="@drawable/ic__firee"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Damkar"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5sp"
+                            android:background="@drawable/colorbutton"
+                            android:drawableStart="@drawable/ic_basarnas"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Basarnas"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5sp"
+                            android:background="@drawable/colorbutton"
+                            android:drawableStart="@drawable/ic_posko_bencana"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Posko Bencana Alam"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:ignore="RtlSymmetry" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5sp"
+                            android:background="@drawable/colorbutton"
+                            android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="RS Umum"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5sp"
+                            android:background="@drawable/colorbutton"
+                            android:drawableStart="@drawable/ic_baseline_local_police_24"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Polisi"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5sp"
+                            android:background="@drawable/colorbutton"
+                            android:drawableStart="@drawable/ic_pmi"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Palang Merah Indonesia"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:ignore="RtlSymmetry" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|center"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignLeft="@+id/mainGraphic"
+                    android:layout_alignTop="@+id/mainGraphic"
+                    android:layout_alignRight="@+id/mainGraphic"
+                    android:layout_alignBottom="@+id/mainGraphic"
+                    android:gravity="bottom|center"
+                    android:singleLine="true"
+                    android:text="©️ PT Kilang Pertamina Internasional Unit Plaju"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

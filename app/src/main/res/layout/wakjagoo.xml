@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backroundpop">
+
+        <Button
+            android:id="@+id/buttonwakjago"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/x"
+            tools:ignore="RtlHardcoded" />
+
+
+        <Button
+            android:id="@+id/tombolwakjago1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFFFF"
+            android:drawableStart="@drawable/wakjago"
+            android:gravity="center"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="20sp"
+            android:paddingBottom="10sp"
+            android:text="WAK JAGO MOTOR PEMADAM 1"
+            android:textColor="@color/black"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/tombolwakjago2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFFFF"
+            android:drawableStart="@drawable/wakjago"
+            android:gravity="center"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="20sp"
+            android:paddingBottom="10sp"
+            android:text="WAK JAGO MOTOR PEMADAM 2"
+            android:textColor="@color/black"
+            android:autoSizeTextType="uniform"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

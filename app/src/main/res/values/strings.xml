@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Patra Siaga</string>
+    <string name="x">X</string>
+    <string name="siap_untuk_pelayanan_terbaik">Siap untuk Pelayanan Terbaik</string>
+    <string name="Operasi_sar">
+"Operasi SAR terdiri dari 5 tahap :
+
+1.Tahap menyadari yaitu mengetahui keadaan yang berpotensi bencana.
+2.Tahap tindak awal yaitu mengumpulkan informasi musibah.
+3.Tahap perencanaan yaitu penyusunan rencana yang efektif dan efisien.
+5.Tahap pengakhiran yaitu seluruh unsur SAR dikembalikan ke instansi masing - masing."
+    </string>
+    <string name="hubungi">Hubungi:</string>
+    <string name="hubungi_segera">HUBUNGI SEGERA</string>
+    <string name="tips_damkar">
+"Apa saja yang harus kita lakukan untuk mencegah kebakaran
+
+1.Tempatkan alat penerangan tradisional dan obat nyamuk bakar di tempat aman.
+2.Rawat dan gunakan kompor dengan cermat.
+3.Sediakan alat pemadam kebakaran di sekitar rumah seperti kain basah, dan alat pemadam api.
+
+Hindari kebakaran! jangan lakukan
+
+1.Memasang stop kontak bertumpuk dan membiarkan kabel terkelupas.
+2.Meninggalkan kompor menyala tanpa pengawasan"</string>
+    <string name="tips_rumahsakit">
+"Tips Aman ke Rumah Sakit
+
+1.Pastikan Rumah Sakit Memiliki Protokol yang Ketat.
+2.Buat jadwal temu.
+3.Ikuti Arahan Petugas Rumah Sakit.
+4.Menggunakan Masker.
+5.Menjaga jarak dirumah Sakit.
+6.Mencuci tangan dirumah sakit."</string>
+    <string name="tips_pmi">
+"Pemberian pertolongan segera kepada penderita sakit/cedera/kecelakaan yang memerlukan penanganan medis dasardengan kemampuan dan terlatih.
+Tujuan Pertolongan Pertama :
+1.Menyelamatkan jiwa penderita.
+2.Mencegah cacat.
+3.Memberikan rasa nyaman dan menunjang proses penyembuhan.
+
+Kewajiban Pelaku Pertolongan Pertama :
+
+a.Menjaga keselamatan diri, anggota tim, penderita dan orang sekitarnya.
+b.Dapat menjangkau penderita.
+c.Dapat mengenali dan mengatasi masalah yang mengancam nyawa.
+d.eminta bantuan / rujukan.
+e.Memberikan pertolongan dengan cepat dan tepat berdasarkan keadaan korban.
+f.Membantu pelaku pertolongan pertama lainnya.
+g.Ikut menjaga kerahasiaan medis penderita.
+h.Melakukan komunikasi dengan petugas lain yang terlibat.
+i.Mempersiapkan penderita untuk ditransportasi.
+
+Sebagai pelaku pertolongan pertama seseorang akan dengan mudah terpapar dengan jasad renik maupun cairan tubuh seseorang yang memungkinkan penolong dapat tertular oleh penyakit. Prinsip utama dalam menghadapi darah dan cairan tubuh dari penderita adalah darah dan semua cairan tubuh sebagai media penularan penyakit."
+    </string>
+    <string name="tips_polisi">
+"Ikuti Tips Aman Berkendara Ini Supaya Bebas Tilang
+
+1.Bawa kelengkapan surat
+2.Gunakan perlengkapan berkendara yang sesuai
+3.Pastikan motor tidak dimodifikasi berlebihan
+4.Jangan membawa terlalu banyak barang
+5.Hindari berboncengan lebih dari 2 orang dewasa
+6.Taati setiap rambu-rambu lalu lintas"
+    </string>
+    <string name="posko_tips">
+"Upaya Menanggulangi Banjir :
+
+-Menjaga lingukungan sekitar
+-Hindari membuat rumah di pinggiran sungai
+-Melaksanakan program tebang pilih dan reboisasi
+-Buanglah sampah pada tempatnya
+-Rajin Membersihkan Saluran Air
+
+Upaya Pengurangan Bencana Angin puting Beliung:
+
+-Memiliki struktur bangunan yang dapat memenuhi syarat teknis
+-Di daerah rawan angin badai, perlu adanya standar bangunan
+-Melakukan penghijauan di bagian atas arah angin untuk meredam gaya angin.
+-Pengamanan/perkuatan bagian-bagian yang mudah diterbangkan angin
+-Kesiapsiagaan dalam menghadapi angin topan
+-Pengamanan barang-barang disekitar rumah
+-Untuk para nelayan, supaya mengikat kuat kapal-kapalnya.
+
+Upaya Penanggulangan Bencana Tanah Longsor:
+
+-Mengenali daerah yang rawan terjadinya tanah longsor.
+-Jangan Bangun Pemukiman atau fasilitas di daerah yang rawan bencana.
+-Menjaga Drainase Fungsi drainase.
+-Membuat terasering dengan sistem drainase yang tepat.
+-Penghijauan tanaman.
+-Jika ingin mendirikan bangunan, gunakan fondasi yang kuat.
+-Penutupan rekahan di atas lereng untuk mencegah air masuk secara cepat kedalam tanah.
+-Pembuatan tanggul penahan untuk runtuhan batuan (rock fall).
+
+Upaya Penanggulangan Kekeringan:
+
+1.Menanam banyak pohon.
+2.Membuat bendungan.
+3.Menggunakan air dengan sewajarnya.
+
+Upaya Penanggulangan Abrasi:
+
+1.Membangun Pemecah Gelombang.
+2.Hutan Mangrove/Bakau.
+
+Mangrove memiliki banyak manfaat seperti :
+
+•Menjaga stabilitas garis pantai.
+•Mengurangi akibat bencana alam tsunami.
+•Membantu pengendapan lumpur, dengan demikian kualitas air lautan jauh lebih terjaga.
+•Membantu menahan juga menyerap tiupan angin laut yang cukup kencang.
+•Merupakan sumber plasma nutfah."
+    </string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backroundpop">
+
+        <Button
+            android:id="@+id/buttonclose1"
+            android:layout_width="48dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:text="@string/x"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/morgana"
+            android:paddingBottom="10sp"
+            android:text="@string/siap_untuk_pelayanan_terbaik"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            tools:targetApi="o" />
+
+        <VideoView
+            android:id="@+id/videoigd"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backroundpop"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/font1"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_weight="3"
+                android:text="@string/hubungi"
+                android:autoSizeTextType="uniform"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/bg_spinner"
+                android:dropDownWidth="fill_parent"
+                android:popupBackground="@drawable/backroundspinner"
+                android:scrollbarThumbVertical="@drawable/spinerthum"
+                android:spinnerMode="dropdown"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/show_kontak1"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/backroundpop"
+            android:padding="3dp"
+            android:text="-"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/fonthimbauan"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/morgana"
+            android:text="SIMPAN NOMOR PENTING INI YA!"
+            android:textAlignment="center"
+            android:textColor="#fc0303"
+            android:textSize="20sp"
+            tools:targetApi="o" />
+        <Button
+            android:id="@+id/calligd"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:background="#e9e8fa"
+            android:drawableStart="@drawable/ic_phone_shiny_icon"
+            android:fontFamily="@font/gone"
+            android:gravity="center"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="20sp"
+            android:paddingBottom="10sp"
+            android:text="@string/hubungi_segera"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
